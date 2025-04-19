@@ -1,0 +1,80 @@
+body {
+    background-color: #1e1e1e;
+    color: #8fbc8f;
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  
+  header, footer {
+    border: 2px solid #9acd32;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    border: 2px solid yellow;
+    margin-top: 10px;
+    padding: 5px;
+    width: 97%;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    border: 2px solid green;
+  }
+  
+  .content {
+    border: 2px solid yellow;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 400px;
+  }
+  
+  .content article {
+    border: 2px solid blue;
+    padding: 5px;
+    height: 100px;
+  }
+  
+  aside {
+    border: 2px solid yellow;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 400px;
+  }
+  
+  aside section {
+    border: 2px solid blue;
+    padding: 5px;
+    height: 100px;
+  }
+  
+  .bottom-section {
+    grid-column: 1 / -1;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  footer {
+    border: 2px solid green;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      display: block;
+    }
+  
+    .content, aside, .bottom-section {
+      width: 100%;
+    }
+  }
+  
