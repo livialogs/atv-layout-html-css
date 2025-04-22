@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esse repositório contém dois projetos de layout desenvolvidos para a disciplina **Programação para Web** (curso S.I. - UPE).
+Esse repositório contém dois projetos de layout desenvolvidos para a disciplina **Desenvolvimento Web** (curso S.I. - UPE)
 
 1. Layout com **CSS Flexbox**.
 2. Layout com **CSS Flexbox combinado com Grid**.
