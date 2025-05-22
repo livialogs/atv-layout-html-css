@@ -14,5 +14,4 @@ Esse repositório contém dois projetos de layout desenvolvidos para a disciplin
 
 ## Links
 
-🔗 [Versão com Flexbox]
-🔗 [Versão com Grid + Flexbox]
+🔗 https://livialogs.github.io/atv-layout-html-css/
